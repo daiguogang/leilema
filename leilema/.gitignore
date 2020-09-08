@@ -31,3 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+compiler.xml
+code.iml
+modules.xml
+workspace.xml

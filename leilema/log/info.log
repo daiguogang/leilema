@@ -1,0 +1,332 @@
+2020-09-07 11:10:56.898 INFO  com.bugpool.leilema.LeilemaApplication - Starting LeilemaApplication on DESKTOP-N92EE56 with PID 39988 (F:\study\fast_springboot\code\leilema\target\classes started by Dell in F:\study\fast_springboot\code\leilema)
+2020-09-07 11:10:56.901 INFO  com.bugpool.leilema.LeilemaApplication - The following profiles are active: dev
+2020-09-07 11:10:58.240 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-07 11:10:58.242 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-07 11:10:58.285 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29ms. Found 0 Redis repository interfaces.
+2020-09-07 11:10:58.986 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-09-07 11:10:58.996 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-07 11:10:58.996 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-07 11:10:58.997 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-07 11:10:59.103 INFO  o.a.c.c.C.[Tomcat].[localhost].[/leilema] - Initializing Spring embedded WebApplicationContext
+2020-09-07 11:10:59.104 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2158 ms
+2020-09-07 11:10:59.714 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-07 11:11:01.106 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-07 11:11:33.257 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-07 11:11:33.675 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07 11:11:34.125 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-07 11:11:34.126 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2020-09-07 11:11:34.126 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-09-07 11:11:34.132 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-09-07 11:11:34.135 INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-09-07 11:11:34.144 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-07 11:23:10.680 INFO  com.bugpool.leilema.LeilemaApplication - Starting LeilemaApplication on DESKTOP-N92EE56 with PID 62028 (F:\study\fast_springboot\code\leilema\target\classes started by Dell in F:\study\fast_springboot\code\leilema)
+2020-09-07 11:23:10.683 INFO  com.bugpool.leilema.LeilemaApplication - The following profiles are active: dev
+2020-09-07 11:23:11.244 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-07 11:23:11.246 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-07 11:23:11.289 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 Redis repository interfaces.
+2020-09-07 11:23:11.773 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-09-07 11:23:11.781 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-07 11:23:11.782 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-07 11:23:11.782 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-07 11:23:11.865 INFO  o.a.c.c.C.[Tomcat].[localhost].[/leilema] - Initializing Spring embedded WebApplicationContext
+2020-09-07 11:23:11.866 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1141 ms
+2020-09-07 11:23:12.018 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-07 11:23:12.290 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-07 11:23:44.331 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-07 11:23:44.526 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07 11:23:44.969 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-09-07 11:23:44.999 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/leilema'
+2020-09-07 11:23:45.008 INFO  com.bugpool.leilema.LeilemaApplication - Started LeilemaApplication in 34.992 seconds (JVM running for 37.038)
+2020-09-07 11:24:54.175 INFO  com.bugpool.leilema.RedisServiceTest - Starting RedisServiceTest on DESKTOP-N92EE56 with PID 63504 (started by Dell in F:\study\fast_springboot\code\leilema)
+2020-09-07 11:24:54.176 INFO  com.bugpool.leilema.RedisServiceTest - The following profiles are active: dev
+2020-09-07 11:24:55.197 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-07 11:24:55.201 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-07 11:24:55.246 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29ms. Found 0 Redis repository interfaces.
+2020-09-07 11:24:55.822 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-07 11:24:56.408 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-07 11:25:28.669 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-07 11:25:29.405 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07 11:25:30.039 INFO  com.bugpool.leilema.RedisServiceTest - Started RedisServiceTest in 36.414 seconds (JVM running for 37.504)
+2020-09-07 11:25:30.537 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-07 11:25:30.538 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2020-09-07 11:25:30.539 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-09-07 11:25:30.548 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-09-07 11:33:17.720 INFO  com.bugpool.leilema.LeilemaApplication - Starting LeilemaApplication on DESKTOP-N92EE56 with PID 65380 (F:\study\fast_springboot\code\leilema\target\classes started by Dell in F:\study\fast_springboot\code\leilema)
+2020-09-07 11:33:17.722 INFO  com.bugpool.leilema.LeilemaApplication - The following profiles are active: dev
+2020-09-07 11:33:25.276 INFO  com.bugpool.leilema.LeilemaApplication - Starting LeilemaApplication on DESKTOP-N92EE56 with PID 66508 (F:\study\fast_springboot\code\leilema\target\classes started by Dell in F:\study\fast_springboot\code\leilema)
+2020-09-07 11:33:25.279 INFO  com.bugpool.leilema.LeilemaApplication - The following profiles are active: dev
+2020-09-07 11:33:25.827 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-07 11:33:25.829 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-07 11:33:25.867 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25ms. Found 0 Redis repository interfaces.
+2020-09-07 11:33:26.354 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-09-07 11:33:26.361 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-07 11:33:26.362 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-07 11:33:26.362 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-07 11:33:26.444 INFO  o.a.c.c.C.[Tomcat].[localhost].[/leilema] - Initializing Spring embedded WebApplicationContext
+2020-09-07 11:33:26.444 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1126 ms
+2020-09-07 11:33:26.596 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-07 11:33:26.872 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-07 11:33:28.869 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-09-07 11:33:28.874 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-09-07 11:33:28.877 INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-09-07 11:33:28.887 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-07 14:03:54.938 INFO  com.bugpool.leilema.LeilemaApplication - Starting LeilemaApplication on DESKTOP-N92EE56 with PID 71020 (F:\study\fast_springboot\code\leilema\target\classes started by Dell in F:\study\fast_springboot\code\leilema)
+2020-09-07 14:03:54.974 INFO  com.bugpool.leilema.LeilemaApplication - The following profiles are active: dev
+2020-09-07 14:03:59.971 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-07 14:03:59.976 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-07 14:04:00.171 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73ms. Found 0 Redis repository interfaces.
+2020-09-07 14:04:01.993 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-09-07 14:04:02.006 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-07 14:04:02.007 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-07 14:04:02.007 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-07 14:04:02.911 INFO  o.a.c.c.C.[Tomcat].[localhost].[/leilema] - Initializing Spring embedded WebApplicationContext
+2020-09-07 14:04:02.911 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 7843 ms
+2020-09-07 14:04:05.886 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-07 14:04:10.403 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-07 14:04:23.298 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-09-07 14:04:23.347 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-09-07 14:04:23.351 INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-09-07 14:04:23.367 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-07 14:04:48.426 INFO  com.bugpool.leilema.RedisServiceTest - Starting RedisServiceTest on DESKTOP-N92EE56 with PID 73968 (started by Dell in F:\study\fast_springboot\code\leilema)
+2020-09-07 14:04:48.451 INFO  com.bugpool.leilema.RedisServiceTest - The following profiles are active: dev
+2020-09-07 14:04:49.507 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-07 14:04:49.511 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-07 14:04:49.585 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50ms. Found 0 Redis repository interfaces.
+2020-09-07 14:04:50.444 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-07 14:04:51.197 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-07 14:04:53.822 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-09-07 14:04:53.889 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-09-07 14:04:53.902 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-07 14:06:36.772 INFO  com.bugpool.leilema.LeilemaApplication - Starting LeilemaApplication on DESKTOP-N92EE56 with PID 69864 (F:\study\fast_springboot\code\leilema\target\classes started by Dell in F:\study\fast_springboot\code\leilema)
+2020-09-07 14:06:36.776 INFO  com.bugpool.leilema.LeilemaApplication - The following profiles are active: dev
+2020-09-07 14:06:37.907 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-07 14:06:37.911 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-07 14:06:37.990 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50ms. Found 0 Redis repository interfaces.
+2020-09-07 14:06:38.733 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-09-07 14:06:38.745 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-07 14:06:38.746 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-07 14:06:38.746 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-07 14:06:38.861 INFO  o.a.c.c.C.[Tomcat].[localhost].[/leilema] - Initializing Spring embedded WebApplicationContext
+2020-09-07 14:06:38.861 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1960 ms
+2020-09-07 14:06:39.091 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-07 14:06:39.460 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-07 14:06:42.457 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-09-07 14:06:42.462 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-09-07 14:06:42.466 INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-09-07 14:06:42.478 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-07 14:31:07.069 INFO  com.bugpool.leilema.LeilemaApplication - Starting LeilemaApplication on DESKTOP-N92EE56 with PID 68392 (F:\study\fast_springboot\code\leilema\target\classes started by Dell in F:\study\fast_springboot\code\leilema)
+2020-09-07 14:31:07.088 INFO  com.bugpool.leilema.LeilemaApplication - The following profiles are active: dev
+2020-09-07 14:31:08.798 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-07 14:31:08.835 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-07 14:31:08.983 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51ms. Found 0 Redis repository interfaces.
+2020-09-07 14:31:09.912 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-09-07 14:31:09.924 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-07 14:31:09.925 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-07 14:31:09.925 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-07 14:31:10.112 INFO  o.a.c.c.C.[Tomcat].[localhost].[/leilema] - Initializing Spring embedded WebApplicationContext
+2020-09-07 14:31:10.112 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2968 ms
+2020-09-07 14:31:10.598 INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-09-07 14:31:10.688 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-07 14:31:50.073 INFO  com.bugpool.leilema.LeilemaApplication - Starting LeilemaApplication on DESKTOP-N92EE56 with PID 74760 (F:\study\fast_springboot\code\leilema\target\classes started by Dell in F:\study\fast_springboot\code\leilema)
+2020-09-07 14:31:50.077 INFO  com.bugpool.leilema.LeilemaApplication - The following profiles are active: dev
+2020-09-07 14:31:50.833 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-07 14:31:50.838 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-07 14:31:50.890 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 Redis repository interfaces.
+2020-09-07 14:31:51.510 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-09-07 14:31:51.529 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-07 14:31:51.530 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-07 14:31:51.530 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-07 14:31:51.637 INFO  o.a.c.c.C.[Tomcat].[localhost].[/leilema] - Initializing Spring embedded WebApplicationContext
+2020-09-07 14:31:51.637 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1499 ms
+2020-09-07 14:31:52.061 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-07 14:31:53.368 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-07 14:31:56.354 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-09-07 14:31:56.360 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-09-07 14:31:56.363 INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-09-07 14:31:56.385 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-07 15:23:23.724 INFO  com.bugpool.leilema.LeilemaApplication - Starting LeilemaApplication on DESKTOP-N92EE56 with PID 76744 (F:\study\fast_springboot\code\leilema\target\classes started by Dell in F:\study\fast_springboot\code\leilema)
+2020-09-07 15:23:23.742 INFO  com.bugpool.leilema.LeilemaApplication - The following profiles are active: dev
+2020-09-07 15:23:26.372 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-07 15:23:26.377 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-07 15:23:26.514 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62ms. Found 0 Redis repository interfaces.
+2020-09-07 15:23:27.444 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-09-07 15:23:27.457 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-07 15:23:27.458 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-07 15:23:27.458 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-07 15:23:28.153 INFO  o.a.c.c.C.[Tomcat].[localhost].[/leilema] - Initializing Spring embedded WebApplicationContext
+2020-09-07 15:23:28.154 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4306 ms
+2020-09-07 15:23:28.833 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-07 15:23:29.735 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-07 15:23:32.756 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-09-07 15:23:32.780 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-09-07 15:23:32.783 INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-09-07 15:23:32.795 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-07 15:27:06.734 INFO  com.bugpool.leilema.LeilemaApplication - Starting LeilemaApplication on DESKTOP-N92EE56 with PID 74772 (F:\study\fast_springboot\code\leilema\target\classes started by Dell in F:\study\fast_springboot\code\leilema)
+2020-09-07 15:27:06.737 INFO  com.bugpool.leilema.LeilemaApplication - The following profiles are active: dev
+2020-09-07 15:27:07.426 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-07 15:27:07.429 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-07 15:27:07.478 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 Redis repository interfaces.
+2020-09-07 15:27:08.065 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-09-07 15:27:08.074 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-07 15:27:08.075 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-07 15:27:08.075 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-07 15:27:08.177 INFO  o.a.c.c.C.[Tomcat].[localhost].[/leilema] - Initializing Spring embedded WebApplicationContext
+2020-09-07 15:27:08.177 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1392 ms
+2020-09-07 15:27:08.362 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-07 15:27:08.697 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-07 15:27:11.152 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-09-07 15:27:11.166 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-09-07 15:27:11.169 INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-09-07 15:27:11.184 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-09-07 15:32:00.124 INFO  com.bugpool.leilema.LeilemaApplication - Starting LeilemaApplication on DESKTOP-N92EE56 with PID 70896 (F:\study\fast_springboot\code\leilema\target\classes started by Dell in F:\study\fast_springboot\code\leilema)
+2020-09-07 15:32:00.127 INFO  com.bugpool.leilema.LeilemaApplication - The following profiles are active: dev
+2020-09-07 15:32:00.906 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-07 15:32:00.909 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-07 15:32:00.954 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+2020-09-07 15:32:01.570 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-09-07 15:32:01.582 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-07 15:32:01.582 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-07 15:32:01.583 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-07 15:32:01.681 INFO  o.a.c.c.C.[Tomcat].[localhost].[/leilema] - Initializing Spring embedded WebApplicationContext
+2020-09-07 15:32:01.681 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1494 ms
+2020-09-07 15:32:01.879 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-07 15:32:02.215 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-07 15:32:05.126 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-07 15:32:06.043 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07 15:32:06.757 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-09-07 15:32:06.820 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/leilema'
+2020-09-07 15:32:06.833 INFO  com.bugpool.leilema.LeilemaApplication - Started LeilemaApplication in 7.536 seconds (JVM running for 9.655)
+2020-09-07 15:32:29.924 INFO  com.bugpool.leilema.RedisServiceTest - Starting RedisServiceTest on DESKTOP-N92EE56 with PID 79564 (started by Dell in F:\study\fast_springboot\code\leilema)
+2020-09-07 15:32:29.957 INFO  com.bugpool.leilema.RedisServiceTest - The following profiles are active: dev
+2020-09-07 15:32:31.011 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-07 15:32:31.016 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-07 15:32:31.075 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38ms. Found 0 Redis repository interfaces.
+2020-09-07 15:32:33.509 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-07 15:32:34.388 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-07 15:32:37.625 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-07 15:32:38.963 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07 15:32:39.939 INFO  com.bugpool.leilema.RedisServiceTest - Started RedisServiceTest in 10.668 seconds (JVM running for 13.913)
+2020-09-07 15:32:40.786 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-07 15:32:40.791 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2020-09-07 15:32:40.792 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-09-07 15:32:40.822 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-09-07 15:33:12.325 INFO  com.bugpool.leilema.RedisServiceTest - Starting RedisServiceTest on DESKTOP-N92EE56 with PID 76460 (started by Dell in F:\study\fast_springboot\code\leilema)
+2020-09-07 15:33:12.327 INFO  com.bugpool.leilema.RedisServiceTest - The following profiles are active: dev
+2020-09-07 15:33:13.617 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-07 15:33:13.622 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-07 15:33:13.675 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 Redis repository interfaces.
+2020-09-07 15:33:14.395 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-07 15:33:14.950 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-07 15:33:17.718 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-07 15:33:18.542 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07 15:33:19.410 INFO  com.bugpool.leilema.RedisServiceTest - Started RedisServiceTest in 8.015 seconds (JVM running for 9.219)
+2020-09-07 15:33:19.875 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-07 15:33:19.879 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2020-09-07 15:33:19.881 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-09-07 15:33:19.897 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-09-07 15:35:21.445 INFO  com.bugpool.leilema.RedisServiceTest - Starting RedisServiceTest on DESKTOP-N92EE56 with PID 79864 (started by Dell in F:\study\fast_springboot\code\leilema)
+2020-09-07 15:35:21.446 INFO  com.bugpool.leilema.RedisServiceTest - The following profiles are active: dev
+2020-09-07 15:35:22.555 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-07 15:35:22.561 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-07 15:35:22.629 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43ms. Found 0 Redis repository interfaces.
+2020-09-07 15:35:23.357 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-07 15:35:23.931 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-07 15:35:26.599 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-07 15:35:27.398 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07 15:35:28.232 INFO  com.bugpool.leilema.RedisServiceTest - Started RedisServiceTest in 7.448 seconds (JVM running for 8.745)
+2020-09-07 15:35:28.632 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-07 15:35:28.635 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2020-09-07 15:35:28.636 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-09-07 15:35:28.649 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-09-07 15:36:39.304 INFO  com.bugpool.leilema.RedisServiceTest - Starting RedisServiceTest on DESKTOP-N92EE56 with PID 78196 (started by Dell in F:\study\fast_springboot\code\leilema)
+2020-09-07 15:36:39.305 INFO  com.bugpool.leilema.RedisServiceTest - The following profiles are active: dev
+2020-09-07 15:36:40.397 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-07 15:36:40.402 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-07 15:36:40.477 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50ms. Found 0 Redis repository interfaces.
+2020-09-07 15:36:41.157 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-07 15:36:41.718 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-07 15:36:44.454 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-07 15:36:45.345 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07 15:36:46.275 INFO  com.bugpool.leilema.RedisServiceTest - Started RedisServiceTest in 7.627 seconds (JVM running for 8.81)
+2020-09-07 15:36:46.692 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-07 15:36:46.694 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2020-09-07 15:36:46.695 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-09-07 15:36:46.706 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-09-07 15:37:10.922 INFO  com.bugpool.leilema.LeilemaApplication - Starting LeilemaApplication on DESKTOP-N92EE56 with PID 80316 (F:\study\fast_springboot\code\leilema\target\classes started by Dell in F:\study\fast_springboot\code\leilema)
+2020-09-07 15:37:10.972 INFO  com.bugpool.leilema.LeilemaApplication - The following profiles are active: dev
+2020-09-07 15:37:11.695 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-07 15:37:11.698 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-07 15:37:11.742 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 0 Redis repository interfaces.
+2020-09-07 15:37:12.318 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2020-09-07 15:37:12.338 INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2020-09-07 15:37:12.339 INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-07 15:37:12.339 INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-09-07 15:37:12.433 INFO  o.a.c.c.C.[Tomcat].[localhost].[/leilema] - Initializing Spring embedded WebApplicationContext
+2020-09-07 15:37:12.433 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1403 ms
+2020-09-07 15:37:12.624 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-07 15:37:12.946 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-07 15:37:15.352 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-07 15:37:15.593 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07 15:37:15.903 INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2020-09-07 15:37:15.926 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path '/leilema'
+2020-09-07 15:37:15.938 INFO  com.bugpool.leilema.LeilemaApplication - Started LeilemaApplication in 5.818 seconds (JVM running for 7.948)
+2020-09-07 15:37:48.097 INFO  com.bugpool.leilema.RedisServiceTest - Starting RedisServiceTest on DESKTOP-N92EE56 with PID 80836 (started by Dell in F:\study\fast_springboot\code\leilema)
+2020-09-07 15:37:48.098 INFO  com.bugpool.leilema.RedisServiceTest - The following profiles are active: dev
+2020-09-07 15:37:49.315 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-07 15:37:49.321 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-07 15:37:49.397 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50ms. Found 0 Redis repository interfaces.
+2020-09-07 15:37:50.268 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-07 15:37:50.860 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-07 15:37:53.895 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-07 15:37:54.806 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07 15:37:55.734 INFO  com.bugpool.leilema.RedisServiceTest - Started RedisServiceTest in 8.35 seconds (JVM running for 9.754)
+2020-09-07 15:37:56.197 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-07 15:37:56.199 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2020-09-07 15:37:56.201 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-09-07 15:37:56.219 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-09-07 15:46:55.847 INFO  com.bugpool.leilema.RedisServiceTest - Starting RedisServiceTest on DESKTOP-N92EE56 with PID 79020 (started by Dell in F:\study\fast_springboot\code\leilema)
+2020-09-07 15:46:55.849 INFO  com.bugpool.leilema.RedisServiceTest - The following profiles are active: dev
+2020-09-07 15:46:57.048 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-07 15:46:57.055 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-07 15:46:57.131 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50ms. Found 0 Redis repository interfaces.
+2020-09-07 15:46:57.916 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-07 15:46:58.555 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-07 15:47:01.526 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-07 15:47:02.452 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07 15:47:03.361 INFO  com.bugpool.leilema.RedisServiceTest - Started RedisServiceTest in 8.19 seconds (JVM running for 9.512)
+2020-09-07 15:47:03.770 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-07 15:47:03.772 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2020-09-07 15:47:03.773 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-09-07 15:47:03.789 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-09-07 15:52:05.020 INFO  com.bugpool.leilema.RedisServiceTest - Starting RedisServiceTest on DESKTOP-N92EE56 with PID 2376 (started by Dell in F:\study\fast_springboot\code\leilema)
+2020-09-07 15:52:05.022 INFO  com.bugpool.leilema.RedisServiceTest - The following profiles are active: dev
+2020-09-07 15:52:06.241 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-09-07 15:52:06.246 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-09-07 15:52:06.326 INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52ms. Found 0 Redis repository interfaces.
+2020-09-07 15:52:07.031 INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2020-09-07 15:52:07.608 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-09-07 15:52:10.419 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService
+2020-09-07 15:52:11.238 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-07 15:52:12.068 INFO  com.bugpool.leilema.RedisServiceTest - Started RedisServiceTest in 7.689 seconds (JVM running for 8.959)
+2020-09-07 15:52:12.579 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-07 15:52:12.581 INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService
+2020-09-07 15:52:12.582 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2020-09-07 15:52:12.596 INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

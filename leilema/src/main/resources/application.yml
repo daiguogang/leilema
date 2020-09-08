@@ -1,3 +1,24 @@
 spring:
   profiles:
     active: dev
+  cache:
+        redis:
+          time-to-live: 10000
+
+  redis:
+    timeout: 5000
+    database: 0
+    cluster:
+      # nodes: 148.70.139.121:7000,148.70.139.121:7001,148.70.139.121:7002,148.70.139.121:7003,148.70.139.121:7004,148.70.139.121:7005
+      nodes: 192.168.42.109:6380,192.168.42.109:6379
+      max-redirects: 3
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1
+        max-idle: 8
+        min-idle: 0
+
+mybatis-plus:
+  mapper-locations: classpath:mapperXml/*/*.xml
+
