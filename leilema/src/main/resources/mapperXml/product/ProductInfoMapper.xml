@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.bugpool.leilema.product.mapper.ProductInfoMapper">
+    <select id="getByLikeName" resultType="com.bugpool.leilema.product.entity.ProductInfo" parameterType="java.lang.String">
+        SELECT * FROM product_info WHERE product_name LIKE concat(concat('%',#{productName}),'%');
+    </select>
+</mapper>
